@@ -23,7 +23,7 @@ class HEALTHDEMO_API UHealth : public UActorComponent
 private:
 	// make our variables private only the health script shoudl deal with the health values
 	UPROPERTY(VisibleAnywhere, Category ="Health|MaxHealth")
-	int MaxHealth = 100;
+	int MaxHealth = 2;
 	UPROPERTY(VisibleAnywhere, Category ="Health|HP")
 	int HP;
 

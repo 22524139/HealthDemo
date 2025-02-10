@@ -25,7 +25,7 @@ class AHealthDemoProjectile : public AActor
 public:
 	AHealthDemoProjectile();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Damage, meta = (AllowPrivateAccess = "true"))
-	int Damage = 50;
+	int Damage = 1;
 
 	/** called when projectile hits something */
 	UFUNCTION()
